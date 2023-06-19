@@ -1,0 +1,5 @@
+python
+jupyter
+pandas
+matplotlib
+folium
