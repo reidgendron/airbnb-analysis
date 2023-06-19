@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8453c4aa42a7f5f8c2c3b26ad2d84126 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8453c4aa42a7f5f8c2c3b26ad2d84126" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8453c4aa42a7f5f8c2c3b26ad2d84126 = L.map(
+                "map_8453c4aa42a7f5f8c2c3b26ad2d84126",
+                {
+                    center: [49.264679784257666, -123.09797096826982],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d4ca95eb2463fc0b003d2185f96fa815 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var marker_fadec92fe63b9288b363b6853a5eac0e = L.marker(
+                [49.28201, -123.12669],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_63cb8ac71b56ed2f68136b29c4657f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fadec92fe63b9288b363b6853a5eac0e.setIcon(icon_63cb8ac71b56ed2f68136b29c4657f23);
+        
+    
+        var popup_cdefe0558f9ac48820f61043e064413d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e107784a86b8ef85a9dfb6c57c682dd = $(`<div id="html_2e107784a86b8ef85a9dfb6c57c682dd" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Designer Styled One Bedroom Downtown Vancouver</h4>         <h5>West End</h5>         <h6>4.68 Stars</h6>         <h6>$157.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/13358>https://www.airbnb.com/rooms/13358</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_cdefe0558f9ac48820f61043e064413d.setContent(html_2e107784a86b8ef85a9dfb6c57c682dd);
+            
+        
+
+        marker_fadec92fe63b9288b363b6853a5eac0e.bindPopup(popup_cdefe0558f9ac48820f61043e064413d)
+        ;
+
+        
+    
+    
+            marker_fadec92fe63b9288b363b6853a5eac0e.bindTooltip(
+                `<div>
+                     Designer Styled One Bedroom Downtown Vancouver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e69c599c671a580ba78c447d6fc383df = L.marker(
+                [49.25622, -123.06607],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_0a6bf44c458164c4afa592a707948156 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e69c599c671a580ba78c447d6fc383df.setIcon(icon_0a6bf44c458164c4afa592a707948156);
+        
+    
+        var popup_8456477c5ca9c57585548b90b3205a77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbc060e34c79196038c05080f16c8635 = $(`<div id="html_fbc060e34c79196038c05080f16c8635" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Vancouver's best kept secret</h4>         <h5>Kensington-Cedar Cottage</h5>         <h6>4.92 Stars</h6>         <h6>$150.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/13490>https://www.airbnb.com/rooms/13490</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_8456477c5ca9c57585548b90b3205a77.setContent(html_fbc060e34c79196038c05080f16c8635);
+            
+        
+
+        marker_e69c599c671a580ba78c447d6fc383df.bindPopup(popup_8456477c5ca9c57585548b90b3205a77)
+        ;
+
+        
+    
+    
+            marker_e69c599c671a580ba78c447d6fc383df.bindTooltip(
+                `<div>
+                     Vancouver's best kept secret
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf23aef45572902494fd1eb7c615b8e5 = L.marker(
+                [49.24922, -123.08139],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_950f3f0b2ade752aee1eca957cc6da95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bf23aef45572902494fd1eb7c615b8e5.setIcon(icon_950f3f0b2ade752aee1eca957cc6da95);
+        
+    
+        var popup_2a76819afb1960f9a36da5d553c05ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74120a3581510aa1d8bcb06e9bc90346 = $(`<div id="html_74120a3581510aa1d8bcb06e9bc90346" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">EcoLoft Vancouver</h4>         <h5>Kensington-Cedar Cottage</h5>         <h6>4.76 Stars</h6>         <h6>$150.00 / Night</h6>         <p>3 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/14267>https://www.airbnb.com/rooms/14267</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_2a76819afb1960f9a36da5d553c05ca4.setContent(html_74120a3581510aa1d8bcb06e9bc90346);
+            
+        
+
+        marker_bf23aef45572902494fd1eb7c615b8e5.bindPopup(popup_2a76819afb1960f9a36da5d553c05ca4)
+        ;
+
+        
+    
+    
+            marker_bf23aef45572902494fd1eb7c615b8e5.bindTooltip(
+                `<div>
+                     EcoLoft Vancouver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a0d5adba4357ab9fe9758bc0c7eb83f = L.marker(
+                [49.27921, -123.08835],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_b99ac796059a4a057d1a72c8203409ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8a0d5adba4357ab9fe9758bc0c7eb83f.setIcon(icon_b99ac796059a4a057d1a72c8203409ea);
+        
+    
+        var popup_f11a912667d89e7c6d8b4b3821d0cb07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d67befd828de0f91ba4d27c5c620d9e = $(`<div id="html_5d67befd828de0f91ba4d27c5c620d9e" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Spacious one-bedroom in sought-after Strathcona</h4>         <h5>Downtown Eastside</h5>         <h6>4.69 Stars</h6>         <h6>$110.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/14424>https://www.airbnb.com/rooms/14424</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_f11a912667d89e7c6d8b4b3821d0cb07.setContent(html_5d67befd828de0f91ba4d27c5c620d9e);
+            
+        
+
+        marker_8a0d5adba4357ab9fe9758bc0c7eb83f.bindPopup(popup_f11a912667d89e7c6d8b4b3821d0cb07)
+        ;
+
+        
+    
+    
+            marker_8a0d5adba4357ab9fe9758bc0c7eb83f.bindTooltip(
+                `<div>
+                     Spacious one-bedroom in sought-after Strathcona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f90a937dea9a62706dd2411028b0cede = L.marker(
+                [49.27721, -123.04086],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_96cc3bdcb88dcf065e42865a02e93d56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f90a937dea9a62706dd2411028b0cede.setIcon(icon_96cc3bdcb88dcf065e42865a02e93d56);
+        
+    
+        var popup_9db2684e22cecbb228f6b54884bb97c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774cfca787f5d34aec50618d1471970b = $(`<div id="html_774cfca787f5d34aec50618d1471970b" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Close to PNE/Hastings Park Garden level suite</h4>         <h5>Hastings-Sunrise</h5>         <h6>4.57 Stars</h6>         <h6>$350.00 / Night</h6>         <p>3 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/16254>https://www.airbnb.com/rooms/16254</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_9db2684e22cecbb228f6b54884bb97c7.setContent(html_774cfca787f5d34aec50618d1471970b);
+            
+        
+
+        marker_f90a937dea9a62706dd2411028b0cede.bindPopup(popup_9db2684e22cecbb228f6b54884bb97c7)
+        ;
+
+        
+    
+    
+            marker_f90a937dea9a62706dd2411028b0cede.bindTooltip(
+                `<div>
+                     Close to PNE/Hastings Park Garden level suite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36a3542802ddcdd140297f3f2338725b = L.marker(
+                [49.26339, -123.07145],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_a055063c31ab57ca34b3f440294caad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_36a3542802ddcdd140297f3f2338725b.setIcon(icon_a055063c31ab57ca34b3f440294caad7);
+        
+    
+        var popup_3e1f7afad06f44fe7aabb92283ba93ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b0c5cf194ad27a4e87b17f5585832f1 = $(`<div id="html_1b0c5cf194ad27a4e87b17f5585832f1" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">1 block to skytrain station, shops,restaurant,bank</h4>         <h5>Grandview-Woodland</h5>         <h6>4.0 Stars</h6>         <h6>$100.00 / Night</h6>         <p>365 Nights Minimum</p>         <p>Accommodates 6</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/16611>https://www.airbnb.com/rooms/16611</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_3e1f7afad06f44fe7aabb92283ba93ad.setContent(html_1b0c5cf194ad27a4e87b17f5585832f1);
+            
+        
+
+        marker_36a3542802ddcdd140297f3f2338725b.bindPopup(popup_3e1f7afad06f44fe7aabb92283ba93ad)
+        ;
+
+        
+    
+    
+            marker_36a3542802ddcdd140297f3f2338725b.bindTooltip(
+                `<div>
+                     1 block to skytrain station, shops,restaurant,bank
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b989d462a9018a0792dd678547a07872 = L.marker(
+                [49.25277, -123.03774],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_0220434f9418b8e4e30affd6b9774a23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b989d462a9018a0792dd678547a07872.setIcon(icon_0220434f9418b8e4e30affd6b9774a23);
+        
+    
+        var popup_3325ffe89b3a3c13168f04e787b8c6ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_519929555db65c5d3cfb235c114606d5 = $(`<div id="html_519929555db65c5d3cfb235c114606d5" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Vancouver 4br 3ba house 20min to DT</h4>         <h5>Renfrew-Collingwood</h5>         <h6>5.0 Stars</h6>         <h6>$195.00 / Night</h6>         <p>5 Nights Minimum</p>         <p>Accommodates 7</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/17158>https://www.airbnb.com/rooms/17158</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_3325ffe89b3a3c13168f04e787b8c6ab.setContent(html_519929555db65c5d3cfb235c114606d5);
+            
+        
+
+        marker_b989d462a9018a0792dd678547a07872.bindPopup(popup_3325ffe89b3a3c13168f04e787b8c6ab)
+        ;
+
+        
+    
+    
+            marker_b989d462a9018a0792dd678547a07872.bindTooltip(
+                `<div>
+                     Vancouver 4br 3ba house 20min to DT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28cef7c4a3d0dc04db5e5709390bf19d = L.marker(
+                [49.26132, -123.10845],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_e9785ab2dec619d5ac122e73875d0d47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_28cef7c4a3d0dc04db5e5709390bf19d.setIcon(icon_e9785ab2dec619d5ac122e73875d0d47);
+        
+    
+        var popup_38c9fa7cb665eb8284621c7d23d24c9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c67cf66f3b664a49abbb96b0d989094a = $(`<div id="html_c67cf66f3b664a49abbb96b0d989094a" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Central location, nice little apartment</h4>         <h5>Mount Pleasant</h5>         <h6>4.6 Stars</h6>         <h6>$94.00 / Night</h6>         <p>5 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/17765>https://www.airbnb.com/rooms/17765</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_38c9fa7cb665eb8284621c7d23d24c9e.setContent(html_c67cf66f3b664a49abbb96b0d989094a);
+            
+        
+
+        marker_28cef7c4a3d0dc04db5e5709390bf19d.bindPopup(popup_38c9fa7cb665eb8284621c7d23d24c9e)
+        ;
+
+        
+    
+    
+            marker_28cef7c4a3d0dc04db5e5709390bf19d.bindTooltip(
+                `<div>
+                     Central location, nice little apartment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e56d2836f4e335fe91929648e920c762 = L.marker(
+                [49.24781, -123.07241],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_547ba899b58bf05ed0154d7c270e5f95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e56d2836f4e335fe91929648e920c762.setIcon(icon_547ba899b58bf05ed0154d7c270e5f95);
+        
+    
+        var popup_2a7ccecfcbdee3f5fd320b8d132fbd19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f96aaca1c35ae1f84bd11fd8369cff8d = $(`<div id="html_f96aaca1c35ae1f84bd11fd8369cff8d" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Centrally located, updated 3bed/1bath garden suite</h4>         <h5>Kensington-Cedar Cottage</h5>         <h6>nan Stars</h6>         <h6>$150.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 6</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/18024>https://www.airbnb.com/rooms/18024</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_2a7ccecfcbdee3f5fd320b8d132fbd19.setContent(html_f96aaca1c35ae1f84bd11fd8369cff8d);
+            
+        
+
+        marker_e56d2836f4e335fe91929648e920c762.bindPopup(popup_2a7ccecfcbdee3f5fd320b8d132fbd19)
+        ;
+
+        
+    
+    
+            marker_e56d2836f4e335fe91929648e920c762.bindTooltip(
+                `<div>
+                     Centrally located, updated 3bed/1bath garden suite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e038b10675040c7f41d3f320717847d = L.marker(
+                [49.26557, -123.096],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_87e9f9502b0b8fcb7483ad7722556ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9e038b10675040c7f41d3f320717847d.setIcon(icon_87e9f9502b0b8fcb7483ad7722556ebf);
+        
+    
+        var popup_575f574fa9aa2f33afdbe6f1312ab799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97a1e8f791de4aa44c6942641ecb21a5 = $(`<div id="html_97a1e8f791de4aa44c6942641ecb21a5" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">private rm in clean central 2BR apt</h4>         <h5>Mount Pleasant</h5>         <h6>4.54 Stars</h6>         <h6>$51.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/18270>https://www.airbnb.com/rooms/18270</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_575f574fa9aa2f33afdbe6f1312ab799.setContent(html_97a1e8f791de4aa44c6942641ecb21a5);
+            
+        
+
+        marker_9e038b10675040c7f41d3f320717847d.bindPopup(popup_575f574fa9aa2f33afdbe6f1312ab799)
+        ;
+
+        
+    
+    
+            marker_9e038b10675040c7f41d3f320717847d.bindTooltip(
+                `<div>
+                     private rm in clean central 2BR apt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fc52d7aef6e0c80b33417247f781e41 = L.marker(
+                [49.27569, -123.07057],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_dd61f145db5950b7a8234247c1a5deed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9fc52d7aef6e0c80b33417247f781e41.setIcon(icon_dd61f145db5950b7a8234247c1a5deed);
+        
+    
+        var popup_13bc162eb3d61cc9396f6ff28858ad37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_594dcd36f6b0e6b5a14018236316fda9 = $(`<div id="html_594dcd36f6b0e6b5a14018236316fda9" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Commercial Drive B&B</h4>         <h5>Grandview-Woodland</h5>         <h6>4.98 Stars</h6>         <h6>$109.00 / Night</h6>         <p>1 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/18589>https://www.airbnb.com/rooms/18589</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_13bc162eb3d61cc9396f6ff28858ad37.setContent(html_594dcd36f6b0e6b5a14018236316fda9);
+            
+        
+
+        marker_9fc52d7aef6e0c80b33417247f781e41.bindPopup(popup_13bc162eb3d61cc9396f6ff28858ad37)
+        ;
+
+        
+    
+    
+            marker_9fc52d7aef6e0c80b33417247f781e41.bindTooltip(
+                `<div>
+                     Commercial Drive B&B
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9f928de8dc22d601a5eca134e11a1f6 = L.marker(
+                [49.28299, -123.13008],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_6efa28dd3963f5974601789903f8fb75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d9f928de8dc22d601a5eca134e11a1f6.setIcon(icon_6efa28dd3963f5974601789903f8fb75);
+        
+    
+        var popup_02fc9d213a46f01e241ae698a4096dfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f8729bad7141dac6cb4fb3c34d5650 = $(`<div id="html_69f8729bad7141dac6cb4fb3c34d5650" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">*Best choice in downtown-5 Stars * -2</h4>         <h5>West End</h5>         <h6>4.55 Stars</h6>         <h6>$68.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/18795>https://www.airbnb.com/rooms/18795</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_02fc9d213a46f01e241ae698a4096dfd.setContent(html_69f8729bad7141dac6cb4fb3c34d5650);
+            
+        
+
+        marker_d9f928de8dc22d601a5eca134e11a1f6.bindPopup(popup_02fc9d213a46f01e241ae698a4096dfd)
+        ;
+
+        
+    
+    
+            marker_d9f928de8dc22d601a5eca134e11a1f6.bindTooltip(
+                `<div>
+                     *Best choice in downtown-5 Stars * -2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d506c098d80515300e2de25c5304860 = L.marker(
+                [49.25636, -123.08636],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_5018c5ab7507031444c321a3237a9ef3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3d506c098d80515300e2de25c5304860.setIcon(icon_5018c5ab7507031444c321a3237a9ef3);
+        
+    
+        var popup_23f7fc73eb39fe3dff5f58c9a3a9193f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8cd0761397fa91f44eb2e1055b7da8a = $(`<div id="html_b8cd0761397fa91f44eb2e1055b7da8a" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Bright & Cheerful Uptown Garden Suite</h4>         <h5>Kensington-Cedar Cottage</h5>         <h6>4.82 Stars</h6>         <h6>$99.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/20085>https://www.airbnb.com/rooms/20085</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_23f7fc73eb39fe3dff5f58c9a3a9193f.setContent(html_b8cd0761397fa91f44eb2e1055b7da8a);
+            
+        
+
+        marker_3d506c098d80515300e2de25c5304860.bindPopup(popup_23f7fc73eb39fe3dff5f58c9a3a9193f)
+        ;
+
+        
+    
+    
+            marker_3d506c098d80515300e2de25c5304860.bindTooltip(
+                `<div>
+                     Bright & Cheerful Uptown Garden Suite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2369819f04d0584858c879d748fda231 = L.marker(
+                [49.23361, -123.05283],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_52262bc47b9ff93a3007584c48e2548b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2369819f04d0584858c879d748fda231.setIcon(icon_52262bc47b9ff93a3007584c48e2548b);
+        
+    
+        var popup_b2a4251a51a818e82a5b16da814c693f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a33ae5352a91cb8442e4bea068579bfb = $(`<div id="html_a33ae5352a91cb8442e4bea068579bfb" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">PRIVATE ROOM + BATH + KING BED + dedicated entry</h4>         <h5>Renfrew-Collingwood</h5>         <h6>4.71 Stars</h6>         <h6>$64.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 1</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/21912>https://www.airbnb.com/rooms/21912</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_b2a4251a51a818e82a5b16da814c693f.setContent(html_a33ae5352a91cb8442e4bea068579bfb);
+            
+        
+
+        marker_2369819f04d0584858c879d748fda231.bindPopup(popup_b2a4251a51a818e82a5b16da814c693f)
+        ;
+
+        
+    
+    
+            marker_2369819f04d0584858c879d748fda231.bindTooltip(
+                `<div>
+                     PRIVATE ROOM + BATH + KING BED + dedicated entry
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff9a463605d2515d264d3cc60d52d6dd = L.marker(
+                [49.23442, -123.05307],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_00907dc141d556ba31cb9dd8ef386dba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ff9a463605d2515d264d3cc60d52d6dd.setIcon(icon_00907dc141d556ba31cb9dd8ef386dba);
+        
+    
+        var popup_0d1a210c94f42eb3e7c9901a99d93eac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0265d74b0cb0e819090f25068e5e18e7 = $(`<div id="html_0265d74b0cb0e819090f25068e5e18e7" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">PRIVATE  SUITE (KITCHEN+ BEDROOM+BATH+LIVING ROOM)</h4>         <h5>Renfrew-Collingwood</h5>         <h6>4.74 Stars</h6>         <h6>$105.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/21913>https://www.airbnb.com/rooms/21913</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_0d1a210c94f42eb3e7c9901a99d93eac.setContent(html_0265d74b0cb0e819090f25068e5e18e7);
+            
+        
+
+        marker_ff9a463605d2515d264d3cc60d52d6dd.bindPopup(popup_0d1a210c94f42eb3e7c9901a99d93eac)
+        ;
+
+        
+    
+    
+            marker_ff9a463605d2515d264d3cc60d52d6dd.bindTooltip(
+                `<div>
+                     PRIVATE  SUITE (KITCHEN+ BEDROOM+BATH+LIVING ROOM)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cb4f982c1bc30f03e8be23a1576f4de = L.marker(
+                [49.26216, -123.1715],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_151fc0efd769845c6a0b6c49142cc252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5cb4f982c1bc30f03e8be23a1576f4de.setIcon(icon_151fc0efd769845c6a0b6c49142cc252);
+        
+    
+        var popup_e19421e6384687d6e983eecf3412abbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_668fc59a019a35b405fb63134fac9341 = $(`<div id="html_668fc59a019a35b405fb63134fac9341" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Walker's paradise in Kitsilano</h4>         <h5>Kitsilano</h5>         <h6>5.0 Stars</h6>         <h6>$140.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 6</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/24273>https://www.airbnb.com/rooms/24273</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_e19421e6384687d6e983eecf3412abbf.setContent(html_668fc59a019a35b405fb63134fac9341);
+            
+        
+
+        marker_5cb4f982c1bc30f03e8be23a1576f4de.bindPopup(popup_e19421e6384687d6e983eecf3412abbf)
+        ;
+
+        
+    
+    
+            marker_5cb4f982c1bc30f03e8be23a1576f4de.bindTooltip(
+                `<div>
+                     Walker's paradise in Kitsilano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_409fe4fa0929f90ae6eb65e280c886d9 = L.marker(
+                [49.28086, -123.12375],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_b0ca41dca157ff2cd44f67c1c92aac6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_409fe4fa0929f90ae6eb65e280c886d9.setIcon(icon_b0ca41dca157ff2cd44f67c1c92aac6f);
+        
+    
+        var popup_ac1425a61c546af32870119b3802dc83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f77d830ca2c6d05744e98f7585a449ad = $(`<div id="html_f77d830ca2c6d05744e98f7585a449ad" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">The Alpha Downtown by COMFYSUITES</h4>         <h5>Downtown</h5>         <h6>4.74 Stars</h6>         <h6>$169.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/26047>https://www.airbnb.com/rooms/26047</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_ac1425a61c546af32870119b3802dc83.setContent(html_f77d830ca2c6d05744e98f7585a449ad);
+            
+        
+
+        marker_409fe4fa0929f90ae6eb65e280c886d9.bindPopup(popup_ac1425a61c546af32870119b3802dc83)
+        ;
+
+        
+    
+    
+            marker_409fe4fa0929f90ae6eb65e280c886d9.bindTooltip(
+                `<div>
+                     The Alpha Downtown by COMFYSUITES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69a60f9c490e6da11b1d4e69e2c3ed4a = L.marker(
+                [49.2792, -123.105],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_285ca2fa776803a7eb8343ecdbd194ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_69a60f9c490e6da11b1d4e69e2c3ed4a.setIcon(icon_285ca2fa776803a7eb8343ecdbd194ca);
+        
+    
+        var popup_0a3d44e20e9697647aa7ed3d6d7b9e93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db779e11e44b6cd30dfab3d73ce353e = $(`<div id="html_1db779e11e44b6cd30dfab3d73ce353e" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Designer Urban Park View Townhouse</h4>         <h5>Downtown</h5>         <h6>4.27 Stars</h6>         <h6>$127.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/32746>https://www.airbnb.com/rooms/32746</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_0a3d44e20e9697647aa7ed3d6d7b9e93.setContent(html_1db779e11e44b6cd30dfab3d73ce353e);
+            
+        
+
+        marker_69a60f9c490e6da11b1d4e69e2c3ed4a.bindPopup(popup_0a3d44e20e9697647aa7ed3d6d7b9e93)
+        ;
+
+        
+    
+    
+            marker_69a60f9c490e6da11b1d4e69e2c3ed4a.bindTooltip(
+                `<div>
+                     Designer Urban Park View Townhouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57d96cb90e809eee22e9533e72661837 = L.marker(
+                [49.24677, -123.1048],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_03fb22f16950321a00b645b41491efa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_57d96cb90e809eee22e9533e72661837.setIcon(icon_03fb22f16950321a00b645b41491efa3);
+        
+    
+        var popup_35295fe44fef41e942d0e35055b7972e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfab667702d1f674d9af3f3fa07547a9 = $(`<div id="html_bfab667702d1f674d9af3f3fa07547a9" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">“Suite on Main”  near  Q.E Park</h4>         <h5>Riley Park</h5>         <h6>4.98 Stars</h6>         <h6>$125.00 / Night</h6>         <p>4 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/33150>https://www.airbnb.com/rooms/33150</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_35295fe44fef41e942d0e35055b7972e.setContent(html_bfab667702d1f674d9af3f3fa07547a9);
+            
+        
+
+        marker_57d96cb90e809eee22e9533e72661837.bindPopup(popup_35295fe44fef41e942d0e35055b7972e)
+        ;
+
+        
+    
+    
+            marker_57d96cb90e809eee22e9533e72661837.bindTooltip(
+                `<div>
+                     “Suite on Main”  near  Q.E Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_192b679b4ee256d78e9732b5d8312f65 = L.marker(
+                [49.2729, -123.06973],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_515b8e54c764e647d0c2a86fd21acde6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_192b679b4ee256d78e9732b5d8312f65.setIcon(icon_515b8e54c764e647d0c2a86fd21acde6);
+        
+    
+        var popup_ec194df12e45407ceff86bf193e730d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2361fda4a0f06129d59789cb56f54f3d = $(`<div id="html_2361fda4a0f06129d59789cb56f54f3d" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">🌟Private Studio in the ❤ of "The Drive"🚶‍♂️➡️ 94</h4>         <h5>Grandview-Woodland</h5>         <h6>4.74 Stars</h6>         <h6>$99.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/35304>https://www.airbnb.com/rooms/35304</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_ec194df12e45407ceff86bf193e730d7.setContent(html_2361fda4a0f06129d59789cb56f54f3d);
+            
+        
+
+        marker_192b679b4ee256d78e9732b5d8312f65.bindPopup(popup_ec194df12e45407ceff86bf193e730d7)
+        ;
+
+        
+    
+    
+            marker_192b679b4ee256d78e9732b5d8312f65.bindTooltip(
+                `<div>
+                     🌟Private Studio in the ❤ of "The Drive"🚶‍♂️➡️ 94
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaffa7fc357010c1587578052ac202b4 = L.marker(
+                [49.28036, -123.1234],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_beb993ae817b1b128b0c23157d1a6d5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aaffa7fc357010c1587578052ac202b4.setIcon(icon_beb993ae817b1b128b0c23157d1a6d5a);
+        
+    
+        var popup_d63a1214a2c3d2162b6461e3e9ad451a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d2912b9581ac565e5b4002c5f0050d9 = $(`<div id="html_8d2912b9581ac565e5b4002c5f0050d9" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">The Charlie Downtown by COMFYSUITES</h4>         <h5>Downtown</h5>         <h6>4.79 Stars</h6>         <h6>$172.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/42645>https://www.airbnb.com/rooms/42645</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_d63a1214a2c3d2162b6461e3e9ad451a.setContent(html_8d2912b9581ac565e5b4002c5f0050d9);
+            
+        
+
+        marker_aaffa7fc357010c1587578052ac202b4.bindPopup(popup_d63a1214a2c3d2162b6461e3e9ad451a)
+        ;
+
+        
+    
+    
+            marker_aaffa7fc357010c1587578052ac202b4.bindTooltip(
+                `<div>
+                     The Charlie Downtown by COMFYSUITES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eddcfd192a621066cf3f7ba442076829 = L.marker(
+                [49.23653, -123.02664],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_98bd686def1976d6446a9467f216f5c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_eddcfd192a621066cf3f7ba442076829.setIcon(icon_98bd686def1976d6446a9467f216f5c8);
+        
+    
+        var popup_cbc9d029bae977deacdfa518f9339ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc4e074e5434524af6ddc155877d147b = $(`<div id="html_dc4e074e5434524af6ddc155877d147b" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Executive Furnished Apartment (2 months minimum)</h4>         <h5>Renfrew-Collingwood</h5>         <h6>5.0 Stars</h6>         <h6>$110.00 / Night</h6>         <p>50 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/48146>https://www.airbnb.com/rooms/48146</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_cbc9d029bae977deacdfa518f9339ce8.setContent(html_dc4e074e5434524af6ddc155877d147b);
+            
+        
+
+        marker_eddcfd192a621066cf3f7ba442076829.bindPopup(popup_cbc9d029bae977deacdfa518f9339ce8)
+        ;
+
+        
+    
+    
+            marker_eddcfd192a621066cf3f7ba442076829.bindTooltip(
+                `<div>
+                     Executive Furnished Apartment (2 months minimum)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71aeb70cce76692157fa7f84f13b5c57 = L.marker(
+                [49.26778, -123.14674],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_57faf28d60211cdb424c9b895b18e617 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_71aeb70cce76692157fa7f84f13b5c57.setIcon(icon_57faf28d60211cdb424c9b895b18e617);
+        
+    
+        var popup_cd3052e714684de3c477150c6c27ecc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_588a7ff70ec7f56dabf7d05f1b393cfc = $(`<div id="html_588a7ff70ec7f56dabf7d05f1b393cfc" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Boutique Studio Apartment in Kits!</h4>         <h5>Kitsilano</h5>         <h6>4.89 Stars</h6>         <h6>$1,950.00 / Night</h6>         <p>31 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/49736>https://www.airbnb.com/rooms/49736</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_cd3052e714684de3c477150c6c27ecc7.setContent(html_588a7ff70ec7f56dabf7d05f1b393cfc);
+            
+        
+
+        marker_71aeb70cce76692157fa7f84f13b5c57.bindPopup(popup_cd3052e714684de3c477150c6c27ecc7)
+        ;
+
+        
+    
+    
+            marker_71aeb70cce76692157fa7f84f13b5c57.bindTooltip(
+                `<div>
+                     Boutique Studio Apartment in Kits!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5567e306e804a8c09bc28aa7e4a1bb0c = L.marker(
+                [49.28692, -123.13227],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_cc4d893f1d1c34c695b2c3ede96739aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5567e306e804a8c09bc28aa7e4a1bb0c.setIcon(icon_cc4d893f1d1c34c695b2c3ede96739aa);
+        
+    
+        var popup_6e3aa2e6ae92913cf47d7d2aca05c488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d9e5f6d922c539501f9b8d2fd706612 = $(`<div id="html_8d9e5f6d922c539501f9b8d2fd706612" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Modern Luxury Townhouse - Downtown</h4>         <h5>West End</h5>         <h6>4.94 Stars</h6>         <h6>$215.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/69763>https://www.airbnb.com/rooms/69763</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_6e3aa2e6ae92913cf47d7d2aca05c488.setContent(html_8d9e5f6d922c539501f9b8d2fd706612);
+            
+        
+
+        marker_5567e306e804a8c09bc28aa7e4a1bb0c.bindPopup(popup_6e3aa2e6ae92913cf47d7d2aca05c488)
+        ;
+
+        
+    
+    
+            marker_5567e306e804a8c09bc28aa7e4a1bb0c.bindTooltip(
+                `<div>
+                     Modern Luxury Townhouse - Downtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86d90e8282be1bc8a166b767b76a744c = L.marker(
+                [49.27836, -123.08716],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_0907c5989dcd6791a7adfba1d22dadc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_86d90e8282be1bc8a166b767b76a744c.setIcon(icon_0907c5989dcd6791a7adfba1d22dadc7);
+        
+    
+        var popup_cb33bd57dfcf355b646e6b37754b2e61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_662cf93eab436c3de818ba28a4b5728f = $(`<div id="html_662cf93eab436c3de818ba28a4b5728f" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Open-concept, Modern Heritage Home with over 20 Skylights</h4>         <h5>Downtown Eastside</h5>         <h6>4.94 Stars</h6>         <h6>$275.00 / Night</h6>         <p>3 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/70453>https://www.airbnb.com/rooms/70453</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_cb33bd57dfcf355b646e6b37754b2e61.setContent(html_662cf93eab436c3de818ba28a4b5728f);
+            
+        
+
+        marker_86d90e8282be1bc8a166b767b76a744c.bindPopup(popup_cb33bd57dfcf355b646e6b37754b2e61)
+        ;
+
+        
+    
+    
+            marker_86d90e8282be1bc8a166b767b76a744c.bindTooltip(
+                `<div>
+                     Open-concept, Modern Heritage Home with over 20 Skylights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6620bd165c37866a680e5110087227f = L.marker(
+                [49.27345, -123.07031],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_6e88df4fd5b2016f7affc835d090128a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b6620bd165c37866a680e5110087227f.setIcon(icon_6e88df4fd5b2016f7affc835d090128a);
+        
+    
+        var popup_fef9a93b93a18fa465dae18038357819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0378b9f13174a7c8ca20e9dc92606197 = $(`<div id="html_0378b9f13174a7c8ca20e9dc92606197" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Central Convenient Vibrant Neighbourhood!</h4>         <h5>Grandview-Woodland</h5>         <h6>4.91 Stars</h6>         <h6>$210.00 / Night</h6>         <p>7 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/72659>https://www.airbnb.com/rooms/72659</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_fef9a93b93a18fa465dae18038357819.setContent(html_0378b9f13174a7c8ca20e9dc92606197);
+            
+        
+
+        marker_b6620bd165c37866a680e5110087227f.bindPopup(popup_fef9a93b93a18fa465dae18038357819)
+        ;
+
+        
+    
+    
+            marker_b6620bd165c37866a680e5110087227f.bindTooltip(
+                `<div>
+                     Central Convenient Vibrant Neighbourhood!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04d6783522bd234334d06327a1792e62 = L.marker(
+                [49.27591, -123.12359],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_cdf4f6656de585aca6ff7376f6d4c7ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_04d6783522bd234334d06327a1792e62.setIcon(icon_cdf4f6656de585aca6ff7376f6d4c7ea);
+        
+    
+        var popup_ddc363f61f4ed5d3cb3fb3f868022a6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96615bac729cc80b9375f98f432e1427 = $(`<div id="html_96615bac729cc80b9375f98f432e1427" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Amazing Downtown Vancouver Condo!</h4>         <h5>Downtown</h5>         <h6>4.74 Stars</h6>         <h6>$129.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/73841>https://www.airbnb.com/rooms/73841</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_ddc363f61f4ed5d3cb3fb3f868022a6e.setContent(html_96615bac729cc80b9375f98f432e1427);
+            
+        
+
+        marker_04d6783522bd234334d06327a1792e62.bindPopup(popup_ddc363f61f4ed5d3cb3fb3f868022a6e)
+        ;
+
+        
+    
+    
+            marker_04d6783522bd234334d06327a1792e62.bindTooltip(
+                `<div>
+                     Amazing Downtown Vancouver Condo!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1a66a0e57a2512f74906c78bf2ba46f = L.marker(
+                [49.2452, -123.16544],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_f52fa7e540db9bdbc69902507011ec41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c1a66a0e57a2512f74906c78bf2ba46f.setIcon(icon_f52fa7e540db9bdbc69902507011ec41);
+        
+    
+        var popup_20c22985bde800e38dcc01f6012d85d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35a6360257327698cb1d6ee1d98808bd = $(`<div id="html_35a6360257327698cb1d6ee1d98808bd" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Room with a Garden View!</h4>         <h5>Arbutus Ridge</h5>         <h6>4.81 Stars</h6>         <h6>$100.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/77157>https://www.airbnb.com/rooms/77157</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_20c22985bde800e38dcc01f6012d85d3.setContent(html_35a6360257327698cb1d6ee1d98808bd);
+            
+        
+
+        marker_c1a66a0e57a2512f74906c78bf2ba46f.bindPopup(popup_20c22985bde800e38dcc01f6012d85d3)
+        ;
+
+        
+    
+    
+            marker_c1a66a0e57a2512f74906c78bf2ba46f.bindTooltip(
+                `<div>
+                     Room with a Garden View!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c12604cf2bbc3734bdc18fe8ad5ea64 = L.marker(
+                [49.27936, -123.12443],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_375b5748c0dec8523f5ae1b92f532680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3c12604cf2bbc3734bdc18fe8ad5ea64.setIcon(icon_375b5748c0dec8523f5ae1b92f532680);
+        
+    
+        var popup_14e786f5418e721f015853ba68b27e4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2d2bda839baff257e381ecac0c29f59 = $(`<div id="html_f2d2bda839baff257e381ecac0c29f59" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Your Downtown Executive Suite</h4>         <h5>Downtown</h5>         <h6>4.88 Stars</h6>         <h6>$149.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/98830>https://www.airbnb.com/rooms/98830</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_14e786f5418e721f015853ba68b27e4a.setContent(html_f2d2bda839baff257e381ecac0c29f59);
+            
+        
+
+        marker_3c12604cf2bbc3734bdc18fe8ad5ea64.bindPopup(popup_14e786f5418e721f015853ba68b27e4a)
+        ;
+
+        
+    
+    
+            marker_3c12604cf2bbc3734bdc18fe8ad5ea64.bindTooltip(
+                `<div>
+                     Your Downtown Executive Suite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7dbccbdce65ba3be66516f61f66ffc3e = L.marker(
+                [49.24615, -123.09462],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_e4701693a14aac2d6cc0b03904a14b12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7dbccbdce65ba3be66516f61f66ffc3e.setIcon(icon_e4701693a14aac2d6cc0b03904a14b12);
+        
+    
+        var popup_e463fe5440b8cd05b51a51027ac9486b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8e52af8fe33588d7f609b88872f47c4 = $(`<div id="html_b8e52af8fe33588d7f609b88872f47c4" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Main Street Vineyard</h4>         <h5>Riley Park</h5>         <h6>4.68 Stars</h6>         <h6>$95.00 / Night</h6>         <p>3 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/125176>https://www.airbnb.com/rooms/125176</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_e463fe5440b8cd05b51a51027ac9486b.setContent(html_b8e52af8fe33588d7f609b88872f47c4);
+            
+        
+
+        marker_7dbccbdce65ba3be66516f61f66ffc3e.bindPopup(popup_e463fe5440b8cd05b51a51027ac9486b)
+        ;
+
+        
+    
+    
+            marker_7dbccbdce65ba3be66516f61f66ffc3e.bindTooltip(
+                `<div>
+                     Main Street Vineyard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d831cf0e54b6403490b5ff47b20d36d = L.marker(
+                [49.24356, -123.04757],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_4141c9ee225bfa739828a3371cb8a82e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9d831cf0e54b6403490b5ff47b20d36d.setIcon(icon_4141c9ee225bfa739828a3371cb8a82e);
+        
+    
+        var popup_0648e6538f99d0decd5d3965c696a549 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a0c0ee96c216bb0da11395ac61799af = $(`<div id="html_2a0c0ee96c216bb0da11395ac61799af" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">West view, Transit convenient, clean & comfortable</h4>         <h5>Renfrew-Collingwood</h5>         <h6>4.6 Stars</h6>         <h6>$40.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 1</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/134688>https://www.airbnb.com/rooms/134688</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_0648e6538f99d0decd5d3965c696a549.setContent(html_2a0c0ee96c216bb0da11395ac61799af);
+            
+        
+
+        marker_9d831cf0e54b6403490b5ff47b20d36d.bindPopup(popup_0648e6538f99d0decd5d3965c696a549)
+        ;
+
+        
+    
+    
+            marker_9d831cf0e54b6403490b5ff47b20d36d.bindTooltip(
+                `<div>
+                     West view, Transit convenient, clean & comfortable
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8387997121643638ceadbc65d621e13b = L.marker(
+                [49.26262921288303, -123.1044384134911],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_ad41d7bff221763564b83d71a31406c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8387997121643638ceadbc65d621e13b.setIcon(icon_ad41d7bff221763564b83d71a31406c3);
+        
+    
+        var popup_0e41a5319abd66bba101e98a5ce133e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd93b6acca9b669676f1e52f31ad66d6 = $(`<div id="html_fd93b6acca9b669676f1e52f31ad66d6" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">1905 Heritage House Loft, Mt. Pleasant, Olympic</h4>         <h5>Mount Pleasant</h5>         <h6>4.84 Stars</h6>         <h6>$125.00 / Night</h6>         <p>6 Nights Minimum</p>         <p>Accommodates 6</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/140698>https://www.airbnb.com/rooms/140698</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_0e41a5319abd66bba101e98a5ce133e4.setContent(html_fd93b6acca9b669676f1e52f31ad66d6);
+            
+        
+
+        marker_8387997121643638ceadbc65d621e13b.bindPopup(popup_0e41a5319abd66bba101e98a5ce133e4)
+        ;
+
+        
+    
+    
+            marker_8387997121643638ceadbc65d621e13b.bindTooltip(
+                `<div>
+                     1905 Heritage House Loft, Mt. Pleasant, Olympic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dab003ff1a49fbfcc653154c70572df0 = L.marker(
+                [49.25757, -123.18966],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_54a157ad54b390b01400b6c996894d0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dab003ff1a49fbfcc653154c70572df0.setIcon(icon_54a157ad54b390b01400b6c996894d0e);
+        
+    
+        var popup_772e4963c932ea2450790c3f47738a10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6671d229dcd9f4471b238751dae35669 = $(`<div id="html_6671d229dcd9f4471b238751dae35669" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Family friendly Point Grey Home</h4>         <h5>Dunbar Southlands</h5>         <h6>4.87 Stars</h6>         <h6>$175.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 6</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/170137>https://www.airbnb.com/rooms/170137</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_772e4963c932ea2450790c3f47738a10.setContent(html_6671d229dcd9f4471b238751dae35669);
+            
+        
+
+        marker_dab003ff1a49fbfcc653154c70572df0.bindPopup(popup_772e4963c932ea2450790c3f47738a10)
+        ;
+
+        
+    
+    
+            marker_dab003ff1a49fbfcc653154c70572df0.bindTooltip(
+                `<div>
+                     Family friendly Point Grey Home
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6a574a4610fc389ebeec440eebf4f2f = L.marker(
+                [49.28034, -123.12648],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_3df337b5471dab2df5bdb90edf920668 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b6a574a4610fc389ebeec440eebf4f2f.setIcon(icon_3df337b5471dab2df5bdb90edf920668);
+        
+    
+        var popup_29fa89eb7b0275e49ad39cdedeec81c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e29d63a5d1d523f675b5c4cc2519975d = $(`<div id="html_e29d63a5d1d523f675b5c4cc2519975d" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Charming and Homely Downtown Penthouse</h4>         <h5>Downtown</h5>         <h6>4.86 Stars</h6>         <h6>$400.00 / Night</h6>         <p>10 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/172827>https://www.airbnb.com/rooms/172827</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_29fa89eb7b0275e49ad39cdedeec81c7.setContent(html_e29d63a5d1d523f675b5c4cc2519975d);
+            
+        
+
+        marker_b6a574a4610fc389ebeec440eebf4f2f.bindPopup(popup_29fa89eb7b0275e49ad39cdedeec81c7)
+        ;
+
+        
+    
+    
+            marker_b6a574a4610fc389ebeec440eebf4f2f.bindTooltip(
+                `<div>
+                     Charming and Homely Downtown Penthouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5406339d46a4095d720728e049b3b8cd = L.marker(
+                [49.25808, -123.16824],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_9b6c5ba6cb995a57d45b81cd6c7dc949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5406339d46a4095d720728e049b3b8cd.setIcon(icon_9b6c5ba6cb995a57d45b81cd6c7dc949);
+        
+    
+        var popup_763aa0fbc2a819b5fb5dae5ae29944fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_619d19ba55e36a098c3ff1ffa14c6ce1 = $(`<div id="html_619d19ba55e36a098c3ff1ffa14c6ce1" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">KITS SUPER CENTRAL DELIGHTFULL APT!</h4>         <h5>Kitsilano</h5>         <h6>4.88 Stars</h6>         <h6>$131.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/182451>https://www.airbnb.com/rooms/182451</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_763aa0fbc2a819b5fb5dae5ae29944fb.setContent(html_619d19ba55e36a098c3ff1ffa14c6ce1);
+            
+        
+
+        marker_5406339d46a4095d720728e049b3b8cd.bindPopup(popup_763aa0fbc2a819b5fb5dae5ae29944fb)
+        ;
+
+        
+    
+    
+            marker_5406339d46a4095d720728e049b3b8cd.bindTooltip(
+                `<div>
+                     KITS SUPER CENTRAL DELIGHTFULL APT!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06b934e8f37e4d1bf19c3a6fc088dae2 = L.marker(
+                [49.2634, -123.0712],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_9e01f01f679c1208ca8dba0c568a6012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_06b934e8f37e4d1bf19c3a6fc088dae2.setIcon(icon_9e01f01f679c1208ca8dba0c568a6012);
+        
+    
+        var popup_e43464c1d2e446468feb87e1093cff2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_263a513226a07a886deaead9f91c5163 = $(`<div id="html_263a513226a07a886deaead9f91c5163" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Newly renovated, sleeps 6 – fantastic location!</h4>         <h5>Grandview-Woodland</h5>         <h6>4.38 Stars</h6>         <h6>$350.00 / Night</h6>         <p>7 Nights Minimum</p>         <p>Accommodates 6</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/196722>https://www.airbnb.com/rooms/196722</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_e43464c1d2e446468feb87e1093cff2f.setContent(html_263a513226a07a886deaead9f91c5163);
+            
+        
+
+        marker_06b934e8f37e4d1bf19c3a6fc088dae2.bindPopup(popup_e43464c1d2e446468feb87e1093cff2f)
+        ;
+
+        
+    
+    
+            marker_06b934e8f37e4d1bf19c3a6fc088dae2.bindTooltip(
+                `<div>
+                     Newly renovated, sleeps 6 – fantastic location!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3e29f34f7b43a7b7ec43fa8b74cb44a = L.marker(
+                [49.2719, -123.15043],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_f4a571360bbd5ac62da88640efce6949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b3e29f34f7b43a7b7ec43fa8b74cb44a.setIcon(icon_f4a571360bbd5ac62da88640efce6949);
+        
+    
+        var popup_241040153878e1e567877208346d4637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_135df6e4cbc90c867ccb2fe58ff909cc = $(`<div id="html_135df6e4cbc90c867ccb2fe58ff909cc" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">A Real Gem in the Heart of Kits</h4>         <h5>Kitsilano</h5>         <h6>4.58 Stars</h6>         <h6>$188.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/219261>https://www.airbnb.com/rooms/219261</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_241040153878e1e567877208346d4637.setContent(html_135df6e4cbc90c867ccb2fe58ff909cc);
+            
+        
+
+        marker_b3e29f34f7b43a7b7ec43fa8b74cb44a.bindPopup(popup_241040153878e1e567877208346d4637)
+        ;
+
+        
+    
+    
+            marker_b3e29f34f7b43a7b7ec43fa8b74cb44a.bindTooltip(
+                `<div>
+                     A Real Gem in the Heart of Kits
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8db396007ab7afd333ead39c350de32f = L.marker(
+                [49.29103, -123.05782],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_f7264dd08dcb2d314bfc2ff581c48cee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8db396007ab7afd333ead39c350de32f.setIcon(icon_f7264dd08dcb2d314bfc2ff581c48cee);
+        
+    
+        var popup_b279c3ea3a102dcef8a58e48078eb69d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e881144b193f77cd21dda4b4c926c22a = $(`<div id="html_e881144b193f77cd21dda4b4c926c22a" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Vancouver stunning views, comfort and location</h4>         <h5>Grandview-Woodland</h5>         <h6>5.0 Stars</h6>         <h6>$110.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 3</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/248014>https://www.airbnb.com/rooms/248014</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_b279c3ea3a102dcef8a58e48078eb69d.setContent(html_e881144b193f77cd21dda4b4c926c22a);
+            
+        
+
+        marker_8db396007ab7afd333ead39c350de32f.bindPopup(popup_b279c3ea3a102dcef8a58e48078eb69d)
+        ;
+
+        
+    
+    
+            marker_8db396007ab7afd333ead39c350de32f.bindTooltip(
+                `<div>
+                     Vancouver stunning views, comfort and location
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3473c67d9d4020584e9abdb7e44589f9 = L.marker(
+                [49.28375, -123.10383],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_426139a8fcb72ad030f36663e3c66fcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3473c67d9d4020584e9abdb7e44589f9.setIcon(icon_426139a8fcb72ad030f36663e3c66fcf);
+        
+    
+        var popup_a635204394154a6b5df3754b9ee6103f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67ca3e2504e642bc3b883b8e05df3bb1 = $(`<div id="html_67ca3e2504e642bc3b883b8e05df3bb1" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Heritage Loft in heart of Gastown</h4>         <h5>Downtown Eastside</h5>         <h6>4.92 Stars</h6>         <h6>$250.00 / Night</h6>         <p>4 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/254657>https://www.airbnb.com/rooms/254657</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_a635204394154a6b5df3754b9ee6103f.setContent(html_67ca3e2504e642bc3b883b8e05df3bb1);
+            
+        
+
+        marker_3473c67d9d4020584e9abdb7e44589f9.bindPopup(popup_a635204394154a6b5df3754b9ee6103f)
+        ;
+
+        
+    
+    
+            marker_3473c67d9d4020584e9abdb7e44589f9.bindTooltip(
+                `<div>
+                     Heritage Loft in heart of Gastown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_546f04b769d9ba34199dd16df9add617 = L.marker(
+                [49.26293, -123.17143],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_072b0659146f2a451e51d2565d7f7954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_546f04b769d9ba34199dd16df9add617.setIcon(icon_072b0659146f2a451e51d2565d7f7954);
+        
+    
+        var popup_615d4bdfb303ed9abc62e939007ad5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31444fe7507394621e39b3607220476 = $(`<div id="html_c31444fe7507394621e39b3607220476" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Luxury Coach House in Kitsilano</h4>         <h5>Kitsilano</h5>         <h6>5.0 Stars</h6>         <h6>$153.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 7</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/256178>https://www.airbnb.com/rooms/256178</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_615d4bdfb303ed9abc62e939007ad5c8.setContent(html_c31444fe7507394621e39b3607220476);
+            
+        
+
+        marker_546f04b769d9ba34199dd16df9add617.bindPopup(popup_615d4bdfb303ed9abc62e939007ad5c8)
+        ;
+
+        
+    
+    
+            marker_546f04b769d9ba34199dd16df9add617.bindTooltip(
+                `<div>
+                     Luxury Coach House in Kitsilano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07b045d530bf6e8b020c5090b51bb68e = L.marker(
+                [49.27839, -123.12852],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_a4ac2395d4101ccd6c12db0ca230a688 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_07b045d530bf6e8b020c5090b51bb68e.setIcon(icon_a4ac2395d4101ccd6c12db0ca230a688);
+        
+    
+        var popup_1a5ba20a5a3dc552a4f26c6b6f88b9e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d0191942a57280909b7d3139135b461 = $(`<div id="html_7d0191942a57280909b7d3139135b461" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">FABULOUS Luxury Downtown Vancouver!</h4>         <h5>Downtown</h5>         <h6>4.79 Stars</h6>         <h6>$99.00 / Night</h6>         <p>120 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/258636>https://www.airbnb.com/rooms/258636</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_1a5ba20a5a3dc552a4f26c6b6f88b9e2.setContent(html_7d0191942a57280909b7d3139135b461);
+            
+        
+
+        marker_07b045d530bf6e8b020c5090b51bb68e.bindPopup(popup_1a5ba20a5a3dc552a4f26c6b6f88b9e2)
+        ;
+
+        
+    
+    
+            marker_07b045d530bf6e8b020c5090b51bb68e.bindTooltip(
+                `<div>
+                     FABULOUS Luxury Downtown Vancouver!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a0addd217da9fc9389b7ef28458b710 = L.marker(
+                [49.23273, -123.02747],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_97cbb75c8fa213d172fd1e584834d34d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1a0addd217da9fc9389b7ef28458b710.setIcon(icon_97cbb75c8fa213d172fd1e584834d34d);
+        
+    
+        var popup_b667ba15efde5ede6f3bc8e94161852d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e87532f1f1295a8ca073c6ef55b7c9 = $(`<div id="html_47e87532f1f1295a8ca073c6ef55b7c9" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Sunset views - LGBTQ2+ friendly</h4>         <h5>Renfrew-Collingwood</h5>         <h6>4.95 Stars</h6>         <h6>$101.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/306178>https://www.airbnb.com/rooms/306178</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_b667ba15efde5ede6f3bc8e94161852d.setContent(html_47e87532f1f1295a8ca073c6ef55b7c9);
+            
+        
+
+        marker_1a0addd217da9fc9389b7ef28458b710.bindPopup(popup_b667ba15efde5ede6f3bc8e94161852d)
+        ;
+
+        
+    
+    
+            marker_1a0addd217da9fc9389b7ef28458b710.bindTooltip(
+                `<div>
+                     Sunset views - LGBTQ2+ friendly
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e92f4dcb4fb75f486745d89e13948019 = L.marker(
+                [49.26328, -123.07086],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_816abb4df4b49d91534b53e6649c6df5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e92f4dcb4fb75f486745d89e13948019.setIcon(icon_816abb4df4b49d91534b53e6649c6df5);
+        
+    
+        var popup_3570b2e414f341c8acf9dad1d8a70a1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3b2884d9749564001f1c35083831286 = $(`<div id="html_e3b2884d9749564001f1c35083831286" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Close to downtown/shops/restaurants/skytrain</h4>         <h5>Grandview-Woodland</h5>         <h6>4.0 Stars</h6>         <h6>$100.00 / Night</h6>         <p>365 Nights Minimum</p>         <p>Accommodates 7</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/311354>https://www.airbnb.com/rooms/311354</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_3570b2e414f341c8acf9dad1d8a70a1b.setContent(html_e3b2884d9749564001f1c35083831286);
+            
+        
+
+        marker_e92f4dcb4fb75f486745d89e13948019.bindPopup(popup_3570b2e414f341c8acf9dad1d8a70a1b)
+        ;
+
+        
+    
+    
+            marker_e92f4dcb4fb75f486745d89e13948019.bindTooltip(
+                `<div>
+                     Close to downtown/shops/restaurants/skytrain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9206a6e664c873b0e143da471d534eea = L.marker(
+                [49.27608, -123.12452],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_aac852012fcf9cdab798943047debadc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9206a6e664c873b0e143da471d534eea.setIcon(icon_aac852012fcf9cdab798943047debadc);
+        
+    
+        var popup_52d8a84f9b5d040f4d9278f84ecf6b87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4652e02eabc2205759addba63471a02 = $(`<div id="html_a4652e02eabc2205759addba63471a02" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Modern Yaletown 1BR | GREAT VIEW + CENTRAL</h4>         <h5>Downtown</h5>         <h6>4.89 Stars</h6>         <h6>$145.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/322824>https://www.airbnb.com/rooms/322824</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_52d8a84f9b5d040f4d9278f84ecf6b87.setContent(html_a4652e02eabc2205759addba63471a02);
+            
+        
+
+        marker_9206a6e664c873b0e143da471d534eea.bindPopup(popup_52d8a84f9b5d040f4d9278f84ecf6b87)
+        ;
+
+        
+    
+    
+            marker_9206a6e664c873b0e143da471d534eea.bindTooltip(
+                `<div>
+                     Modern Yaletown 1BR | GREAT VIEW + CENTRAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7380020c254181322e4dce3717a55d8 = L.marker(
+                [49.27634, -123.11825],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_48ad3ed784e7f7291cda41aa5431e026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c7380020c254181322e4dce3717a55d8.setIcon(icon_48ad3ed784e7f7291cda41aa5431e026);
+        
+    
+        var popup_58192bb8bbb15930a8844a2b05d63a8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4c0de8c57b3dd684d408e67be537d8c = $(`<div id="html_e4c0de8c57b3dd684d408e67be537d8c" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Stylish Modern Central Downtown★★★★★★★</h4>         <h5>Downtown</h5>         <h6>4.86 Stars</h6>         <h6>$258.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/359942>https://www.airbnb.com/rooms/359942</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_58192bb8bbb15930a8844a2b05d63a8a.setContent(html_e4c0de8c57b3dd684d408e67be537d8c);
+            
+        
+
+        marker_c7380020c254181322e4dce3717a55d8.bindPopup(popup_58192bb8bbb15930a8844a2b05d63a8a)
+        ;
+
+        
+    
+    
+            marker_c7380020c254181322e4dce3717a55d8.bindTooltip(
+                `<div>
+                     Stylish Modern Central Downtown★★★★★★★
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37b4ae015a4a09f60c688b94da32cf7a = L.marker(
+                [49.27799, -123.07101],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_e3b84728ba7228a4a306f8baecca9911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_37b4ae015a4a09f60c688b94da32cf7a.setIcon(icon_e3b84728ba7228a4a306f8baecca9911);
+        
+    
+        var popup_56329310a1bbfcf1176c60223933ee7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d849ade4416d3ef9b8bb5ec15fa283e5 = $(`<div id="html_d849ade4416d3ef9b8bb5ec15fa283e5" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Bright Spacious Bedroom Pvt Bath</h4>         <h5>Grandview-Woodland</h5>         <h6>4.69 Stars</h6>         <h6>$48.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 1</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/377706>https://www.airbnb.com/rooms/377706</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_56329310a1bbfcf1176c60223933ee7c.setContent(html_d849ade4416d3ef9b8bb5ec15fa283e5);
+            
+        
+
+        marker_37b4ae015a4a09f60c688b94da32cf7a.bindPopup(popup_56329310a1bbfcf1176c60223933ee7c)
+        ;
+
+        
+    
+    
+            marker_37b4ae015a4a09f60c688b94da32cf7a.bindTooltip(
+                `<div>
+                     Bright Spacious Bedroom Pvt Bath
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7800a50317eb4b73d0121d7996db85a = L.marker(
+                [49.2332, -123.0551],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_d78ae7835ec6aeef589e92cce0a5559e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d7800a50317eb4b73d0121d7996db85a.setIcon(icon_d78ae7835ec6aeef589e92cce0a5559e);
+        
+    
+        var popup_b02fc701d601c5fa8a616daa71ec7bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f359a356b7439228ab7ba13250d751bb = $(`<div id="html_f359a356b7439228ab7ba13250d751bb" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">LARGE PRIVATE ROOM+BATH, KING BED, dedicated entry</h4>         <h5>Renfrew-Collingwood</h5>         <h6>4.73 Stars</h6>         <h6>$63.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 1</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/415700>https://www.airbnb.com/rooms/415700</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_b02fc701d601c5fa8a616daa71ec7bb4.setContent(html_f359a356b7439228ab7ba13250d751bb);
+            
+        
+
+        marker_d7800a50317eb4b73d0121d7996db85a.bindPopup(popup_b02fc701d601c5fa8a616daa71ec7bb4)
+        ;
+
+        
+    
+    
+            marker_d7800a50317eb4b73d0121d7996db85a.bindTooltip(
+                `<div>
+                     LARGE PRIVATE ROOM+BATH, KING BED, dedicated entry
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_733b83901487296dd0e7a5885288b134 = L.marker(
+                [49.28211, -123.10453],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_73010963371b6e64c03a639414131c57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_733b83901487296dd0e7a5885288b134.setIcon(icon_73010963371b6e64c03a639414131c57);
+        
+    
+        var popup_362fef755ee5c81fe7938a1e3e787944 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_957633fc6c4c60480cabba999c8020ca = $(`<div id="html_957633fc6c4c60480cabba999c8020ca" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Trendy & Spacious 2 bd Gastown Loft</h4>         <h5>Downtown Eastside</h5>         <h6>4.83 Stars</h6>         <h6>$285.00 / Night</h6>         <p>3 Nights Minimum</p>         <p>Accommodates 4</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/436032>https://www.airbnb.com/rooms/436032</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_362fef755ee5c81fe7938a1e3e787944.setContent(html_957633fc6c4c60480cabba999c8020ca);
+            
+        
+
+        marker_733b83901487296dd0e7a5885288b134.bindPopup(popup_362fef755ee5c81fe7938a1e3e787944)
+        ;
+
+        
+    
+    
+            marker_733b83901487296dd0e7a5885288b134.bindTooltip(
+                `<div>
+                     Trendy & Spacious 2 bd Gastown Loft
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ad069acc7856493b9d2851536dc7a53 = L.marker(
+                [49.28063, -123.12502],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_8be10fd0ceede1e658bc0a2849a68aa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2ad069acc7856493b9d2851536dc7a53.setIcon(icon_8be10fd0ceede1e658bc0a2849a68aa2);
+        
+    
+        var popup_761761576fb8ed0199d7b417468493d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdd1b1280606b0781e9d6ac7b166a980 = $(`<div id="html_bdd1b1280606b0781e9d6ac7b166a980" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Home (Office) Away from Home – Heart of Downtown</h4>         <h5>Downtown</h5>         <h6>4.88 Stars</h6>         <h6>$148.00 / Night</h6>         <p>30 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/448104>https://www.airbnb.com/rooms/448104</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_761761576fb8ed0199d7b417468493d1.setContent(html_bdd1b1280606b0781e9d6ac7b166a980);
+            
+        
+
+        marker_2ad069acc7856493b9d2851536dc7a53.bindPopup(popup_761761576fb8ed0199d7b417468493d1)
+        ;
+
+        
+    
+    
+            marker_2ad069acc7856493b9d2851536dc7a53.bindTooltip(
+                `<div>
+                     Home (Office) Away from Home – Heart of Downtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62ca866ae1c0e0f15805483d42634352 = L.marker(
+                [49.22834, -123.03047],
+                {}
+            ).addTo(map_8453c4aa42a7f5f8c2c3b26ad2d84126);
+        
+    
+            var icon_a952a217de0b46b160b521e7d03ae0ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_62ca866ae1c0e0f15805483d42634352.setIcon(icon_a952a217de0b46b160b521e7d03ae0ce);
+        
+    
+        var popup_d16a5f380f817cca6f6dc75796b4bcfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb79cd9b40983074c669ed4379642f80 = $(`<div id="html_cb79cd9b40983074c669ed4379642f80" style="width: 100.0%; height: 100.0%;">     <div style="width: 20em; line-height: 0.5em;">         <h4 style="color: darkred;">Lovely large room w/ private bath</h4>         <h5>Killarney</h5>         <h6>4.64 Stars</h6>         <h6>$140.00 / Night</h6>         <p>2 Nights Minimum</p>         <p>Accommodates 2</p>         <br>         <div style="text-align: right;">             <a href=https://www.airbnb.com/rooms/461370>https://www.airbnb.com/rooms/461370</a>             <p>Last updated 2023-03-14</p>         </div>     </div>     </div>`)[0];
+                popup_d16a5f380f817cca6f6dc75796b4bcfc.setContent(html_cb79cd9b40983074c669ed4379642f80);
+            
+        
+
+        marker_62ca866ae1c0e0f15805483d42634352.bindPopup(popup_d16a5f380f817cca6f6dc75796b4bcfc)
+        ;
+
+        
+    
+    
+            marker_62ca866ae1c0e0f15805483d42634352.bindTooltip(
+                `<div>
+                     Lovely large room w/ private bath
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
