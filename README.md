@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This project aims to explore and analyze Airbnb data to gain insights into pricing trends, popular locations, and other key factors influencing the rental market. The dataset used in this analysis consists of information about Airbnb listings, including location, pricing, property type, and reviews.
+This project aims to explore and analyze Airbnb data to gain insights into pricing trends, popular locations, and other key factors influencing the rental market in Vancouver. The dataset used in this analysis consists of information about Airbnb listings, including location, pricing, property type, and reviews.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ The project is structured as follows:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/airbnb-analysis.git
+git clone https://github.com/reidgendron/airbnb-analysis.git
 ```
 
 2. Install the required dependencies:
