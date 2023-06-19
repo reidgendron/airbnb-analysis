@@ -50,6 +50,10 @@ pip install -r requirements.txt
 
 This project is a **work in progress**, and as such, the results of this analysis are still to come. Results will be placed in the [results/](results/) directory.
 
+Alternatively, results can also be viewed here
+
+[reidgendron.github.io/airbnb-analysis/](https://reidgendron.github.io/airbnb-analysis/)
+
 ## Contributions
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
