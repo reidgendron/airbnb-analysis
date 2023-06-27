@@ -2,7 +2,7 @@
 
 ![Airbnb Logo](assets/airbnb.png)
 
-<iframe src="reidgendron.github.io/airbnb-analysis/results" width="1000" height="600"></iframe>
+<iframe src="/results" align="center" width="1000" height="600"></iframe>
 
 ## Introduction
 
