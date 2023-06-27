@@ -1,8 +1,8 @@
 # Airbnb Data Exploration and Analysis
 
-<img src="assets/airbnb.png" align="center" alt="airbnb" width="500"/>
+<img src="assets/airbnb.png" alt="airbnb" width="500"/>
 
-<iframe src="/results" align="center" width="1000" height="600"></iframe>
+<iframe src="/results/index.html" align="center" width="1000" height="600"></iframe>
 
 ## Introduction
 
