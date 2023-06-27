@@ -2,6 +2,8 @@
 
 ![Airbnb Logo](assets/airbnb.png)
 
+<iframe src="results/index.html" height="500" width="500"></iframe>
+
 ## Introduction
 
 This project aims to explore and analyze Airbnb data to gain insights into pricing trends, popular locations, and other key factors influencing the rental market in Vancouver. The dataset used in this analysis consists of information about Airbnb listings, including location, pricing, property type, and reviews.
