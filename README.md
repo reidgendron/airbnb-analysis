@@ -2,7 +2,7 @@
 
 <img src="assets/airbnb.png" alt="airbnb" width="500"/>
 
-<iframe src="/results/index.html" align="center" width="1000" height="600"></iframe>
+<iframe src="results/index.html" align="center" width="100%" height="auto"/>
 
 ## Introduction
 
