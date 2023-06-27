@@ -2,7 +2,7 @@
 
 ![Airbnb Logo](assets/airbnb.png)
 
-<iframe src="results/index.html" height="500" width="500"></iframe>
+<iframe src="results/" height="500" width="500"></iframe>
 
 ## Introduction
 
