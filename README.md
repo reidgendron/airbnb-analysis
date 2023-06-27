@@ -1,4 +1,4 @@
- <img src="assets/airbnb.png" alt="airbnb" width="800"/>
+ <img src="assets/airbnb.png" alt="airbnb" width="500"/>
 
 # Airbnb Data Exploration and Analysis 
 
