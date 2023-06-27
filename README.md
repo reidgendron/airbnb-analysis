@@ -2,8 +2,7 @@
 
 ![Airbnb Logo](assets/airbnb.png)
 
-<iframe src="results/index.html" height="500" width="500"></iframe>
-<iframe src="results/" width="900" height="600"></iframe>
+<iframe src="reidgendron.github.io/airbnb-analysis/results" width="1000" height="600"></iframe>
 
 ## Introduction
 
@@ -55,7 +54,7 @@ This project is a **work in progress**, and as such, the results of this analysi
 
 Alternatively, results can also be viewed here
 
-[reidgendron.github.io/airbnb-analysis/](https://reidgendron.github.io/airbnb-analysis/)
+[reidgendron.github.io/airbnb-analysis/results](https://reidgendron.github.io/airbnb-analysis/results)
 
 ## Contributions
 
